@@ -1,5 +1,35 @@
 section.header{
-    display: block;
-    border: 1px solid;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
     height: 25px;
+    align-items: center;
+    flex-direction: row;
+}
+section.header .childFlex {
+    flex: auto;
+    text-align: center;
+    padding: 5px ;
+    align-content: space-between;
+}
+section.header .icon{
+    text-align: left;
+    color: #36707e;
+}
+section.header .menu{
+    text-align: right;
+}
+section.header .menu a{
+    margin: 0px 15px;
+}
+section.header .avatar .me{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    padding: 6px;
+    height: 30px;
+    float: right;
+}
+#avatar{
+    width: 30px;
 }
