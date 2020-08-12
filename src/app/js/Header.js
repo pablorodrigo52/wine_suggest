@@ -15,7 +15,7 @@ function Header(){
             </div>
             <div className='menu childFlex'>
                 <a href='#'>Home</a>
-                <a href='#'>About</a>
+                <a href='javascript:void(0)'>About</a>
             </div>
             <div className='avatar childFlex'>
                 <div className='me'>
