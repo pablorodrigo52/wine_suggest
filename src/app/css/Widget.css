@@ -19,7 +19,6 @@
     align-self: flex-start;
     transform: scaleX(-1);
 }
-
 .widget .location{
     position: absolute;
     right: -30px;;
