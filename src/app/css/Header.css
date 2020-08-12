@@ -1,6 +1,5 @@
 section.header{
     width: 100%;
-    /* border: 1px solid; */
     display: flex;
     height: 25px;
     align-items: center;
@@ -14,16 +13,25 @@ section.header .childFlex {
 }
 section.header .icon{
     text-align: left;
-    color: #36707e;
+    color: #490009;
 }
 section.header .menu{
     text-align: right;
 }
 section.header .menu a{
-    margin: 0px 15px;
+    /* margin: 0px 75px; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+section.header .menu a:hover{
+    color: #bc4558;
+    transition: .3s all;
 }
 section.header .avatar .me{
-    border: 1px solid black;
+    border: 2px solid #f6fafb;
+    background-color: #d6d6d6;
     border-radius: 50%;
     width: 30px;
     padding: 6px;
