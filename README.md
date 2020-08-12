@@ -1,6 +1,6 @@
 # Wine Suggest
 
-Frontend for a website that suggest some wines to drink. :)
+A website that suggest some wines to drink. :)
 You can interact from here: https://pablorodrigo52.github.io/wine_suggest/
 
 ## Techs (until now)
@@ -12,7 +12,7 @@ You can interact from here: https://pablorodrigo52.github.io/wine_suggest/
 ## TODO
 
 - Favicon and Title
-- Get suggested on click button and show other wine
+- Get suggested on click button and show other wine (backend)
 - About
 - Profile*
 - Responsive
