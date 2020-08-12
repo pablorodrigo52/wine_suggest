@@ -19,6 +19,6 @@ You can interact from here: https://pablorodrigo52.github.io/wine_suggest/
 - Dynamic image widget***
 
 ** I don't know if a profile is really important for this application, but its a good feature. I will think about it.
-*** I need a good base images to do this. I'm searching. 
+<br/>*** I need a good base images to do this. I'm searching. 
 
 Based on dribble: https://dribbble.com/shots/6646698-Luckin-Coffee
