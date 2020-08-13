@@ -11,7 +11,7 @@ function Header(props){
     const MENU = '1';
     const PROFILE = '2';
 
-    if (props.menu == MENU){
+    if (props.menu === MENU){
         return (
             <section className='header'>
                 <div className='icon childFlex'>
@@ -19,11 +19,11 @@ function Header(props){
                 </div>
                 <div className='menu childFlex'>
                     {/* <a href='#'>Home</a> */}
-                    <a href='javascript:void(0)'>About</a>
+                    <a href='https://github.com/pablorodrigo52/wine_suggest'>About</a>
                 </div>
             </section>
         );
-    } else if (props.menu == PROFILE) {
+    } else if (props.menu === PROFILE) {
         return (
             <section className='header'>
                 <div className='icon childFlex'></div>
