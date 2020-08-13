@@ -3,14 +3,13 @@ class Request {
     constructor(){
         this._requestHeaders = {
             mode: 'no-cors',
-            method: "GET",
             method: 'GET',
             withCredentials: true,
             credentials: 'include',
             contentType: 'application/json',
             headers: {
-                'Authorization': 'Token c7d27f85cf45c7fde5cc746f5eb1d37f3b3ca4ff',
-                'contentType': 'application/json',
+                Authorization: 'Token c7d27f85cf45c7fde5cc746f5eb1d37f3b3ca4ff',
+                contentType: 'application/json',
             }
         }
     }
