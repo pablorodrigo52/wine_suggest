@@ -2,13 +2,15 @@
 class Request {
     constructor(){
         this._requestHeaders = {
-            method: 'GET',
             mode: 'no-cors',
+            method: "GET",
+            method: 'GET',
+            withCredentials: true,
+            credentials: 'include',
+            contentType: 'application/json',
             headers: {
-                // 'Access-Control-Allow-Origin': '*',
-                // "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
-                Authorization: 'Token c7d27f85cf45c7fde5cc746f5eb1d37f3b3ca4ff',
-                Accept: '*/*'
+                'Authorization': 'Token c7d27f85cf45c7fde5cc746f5eb1d37f3b3ca4ff',
+                'contentType': 'application/json',
             }
         }
     }
